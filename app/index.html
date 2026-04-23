@@ -1,9 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevOps Demo</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 100px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: white;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ddd;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            width: 100%;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello Channel Welcome to the DevOps lecture</h1>
+
+    <div class="container">
+        <h1>Hello DevOps 🚀</h1>
+        <p>Welcome to your CI/CD pipeline demo deployed using Docker & AWS EC2</p>
+
+        <button class="btn" onclick="showMessage()">Click Me</button>
+    </div>
+
+    <footer>
+        <p>© 2026 DevOps Demo Project</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Your CI/CD pipeline is working successfully! 🎉");
+        }
+    </script>
+
 </body>
 </html>
